@@ -1,0 +1,131 @@
+ <!-- ============================================
+            BERITA
+        ========================================== -->
+        <section class="py-5 bg-light">
+            <div class="container">
+                <div class="d-flex justify-content-between align-items-end mb-4">
+                    <div>
+                        <span class="text-primary fw-semibold"> INFORMASI </span>
+
+                        <h2 class="fw-blod mt-2 mb-0">Berita Terbaru</h2>
+                    </div>
+
+                    <a href="#" class="btn btn-outline-primary"> Lihat Semua </a>
+                </div>
+
+                <div class="row g-4">
+                    <!-- Berita 1 -->
+                    <div class="col-md-4">
+                        <article class="card news-card h-100 border-0 shadow-sm">
+                            <div class="news-image">
+                                <i class="bi bi-newspaper"></i>
+                            </div>
+
+                            <div class="card-body p-4">
+                                <small class="text-muted"> 10 Agustus 2026 </small>
+
+                                <h4 class="mt-2">Persiapan Perayaan HUT Paroki</h4>
+
+                                <p class="text-muted">
+                                    Berbagai kegiatan telah dipersiapkan untuk menyambut Perayaan
+                                    ulang tahun paroki.
+                                </p>
+
+                                <a href="#" class="text-primary fw-semibold">
+                                    Baca Selengkapnya
+                                    <i class="bi bi-arrow-right"></i>
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+                    
+                    
+                    <!-- Berita 2 -->
+                    <div class="col-md-4">
+                        <article class="card news-card h-100 border-0 shadow-sm">
+                            <div class="news-image">
+                                <i class="bi bi-people-fill"></i>
+                            </div>
+
+                            <div class="card-body p-4">
+                                <small class="text-muted"> 8 Agustus 2026 </small>
+
+                                <h4 class="mt-2">Kegiatan Kaum Muda</h4>
+
+                                <p class="text-muted">
+                                    Komunitas kaum muda mengadakan kegiatan bersama untuk
+                                    mempererat persaudaraan.
+                                </p>
+
+                                <a href="#" class="text-primary fw-semibold">
+                                   Baca Selengkapnya
+                                  <i class="bi bi-arrow-right"></i>
+                                </a>
+                           </div>
+                        </article>
+                    </div>
+                        
+                    <!-- Berita 3 -->
+                     <div class="col-md-4">
+                        <article class="card news-card h-100 border-0 shadow-sm">
+                            <div class="news-image">
+                                <i class="bi bi-heart-fill"></i>
+                            </div>
+
+                            <div class="card-body p-4">
+                                <small class="text-muted"> 5 Agustus 2026 </small>
+
+                                <h4 class="mt-2">Pelayanan Sosial Paroki</h4>
+
+                                <p class="text-muted">
+                                    Umat diajak untuk berpartisipasi dalam kegiatan pelayanan
+                                    sosial.
+                                </p>
+
+                                <a href="#" class="text-primary fw-semibold">
+                                    Baca Selengkapnya
+                                 <i class="bi bi-arrow-right"></i>
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- =============================================
+            TENTANG PAROKI
+        ============================================== -->
+        <section class="py-5">
+            <div class="container">
+                <div class="row align-items-center g-5">
+                    <div class="col-lg-6">
+                        <div class="about-placeholder">
+                            <i class="bi bi-church display-1"></i>
+                            
+                            <h4 class="mt-3">Paroki Santo Gabriel</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <span class="text-primary fw-semibold"> TENTANG KAMI </span>
+                        
+                        <h2 class="fw-bold mt-2">
+                            Menjadi komunitas yang hidup dan melayani
+                        </h2>
+                        
+                        <p class="text-muted mt-3">
+                            Paroki Santo Gabriel merupakan komunitas umat yang dipanggil untuk 
+                            bertumbuh dalam iman, membangun persaudaraan, dan memberikan 
+                            pelayanan kepada masyarakat.
+                        </p>
+                        
+                        <p class="text-muted">
+                            Website ini menjadi salah satu media informasi dan komunikasi 
+                            antara paroki dengan umat.
+                        </p>
+                        <a href="#" class="btn btn-primary"> Selengkapnya </a>
+                    </div>
+                </div>
+            </div>
+        </section>

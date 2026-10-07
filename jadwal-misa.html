@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang ="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Paroki Santo Gabriel</title>
+
+    <!-- Bootstrap CSS -->
+     <link 
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+        
+        rel="stylesheet" 
+    />
+
+    <!-- Bootstrap Icons -->
+    <link 
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" 
+    />
+
+
+    <!-- Custom CSS -->
+     <link rel="stylesheet" href="style.css"/>
+  </head>
+
+  <body> 
+    <!-- ============================================
+        NAVBAR
+        ========================================== -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+      <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+          <div class="logo-icon me-2">
+            <i class="bi bi-cross"></i>
+          </div>
+
+          <div>
+            <div class="fw-bold">PAROKI SANTO GABRIEL</div>
+            <small class="text-muted">Gereja & Pelayanan Umat</small>
+          </div>
+        </a>
+
+         <!-- Mobile Button -->
+          <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarMenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Menu -->
+         <div class="collapse navbar-collapse" id="navbarMenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html"> Beranda </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#"> Tentang </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="jadwal-misa.html"> Jadwal Misa </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="berita.html"> Berita </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#"> Pelayanan </a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"> Kontak </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    
+<!-- =============================================
+        PAGE HEADER
+    ============================================== -->
+    
+    <section class="page-header">
+        <div class="container">
+            <div class="text-center">
+                <span class="text-primary fw-semibold">INFORMASI IBADAH</span>
+                <h1 class="fw-bold mt-2">Jadwal Misa</h1>
+                <p class="text-muted mb-0">
+                    Informasi jadwal perayaan Ekaristi di Paroki Santo Gabriel.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- =============================================
+        JADWAL MISA MINGGUAN
+    ============================================== -->
+    
+    <section class="py-5">
+        <div class="container">
+            <!-- Section Title -->
+            <div class="mb-4">
+                <span class="text-primary fw-semibold">JADWAL RUTIN</span>
+                <h2 class="fw-bold mt-2">Jadwal Misa Mingguan</h2>
+                <p class="text-muted">
+                    Jadwal perayaan Ekaristi yang dilaksanakan secara rutin setiap minggu.
+                </p>
+            </div>
+
+            <!-- Schedule Table -->
+            <div class="table-responsive">
+                <table class="table table-bordered align-middle">
+                    <thead class="table-primary">
+                        <tr>
+                            <th>Hari</th>
+                            <th>Waktu</th>
+                            <th>Jenis Misa</th>
+                            <th>Tempat</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Sabtu</td>
+                            <td>17.00 WIB</td>
+                            <td>Misa Vigili</td>
+                            <td>Gereja Utama</td>
+                        </tr>
+                        <tr>
+                            <td>Minggu</td>
+                            <td>07.00 WIB</td>
+                            <td>Misa Minggu Pagi</td>
+                            <td>Gereja Utama</td>
+                        </tr>
+                        <tr>
+                            <td>Minggu</td>
+                            <td>10.00 WIB</td>
+                            <td>Misa Minggu</td>
+                            <td>Gereja Utama</td>
+                        </tr>
+                        <tr>
+                            <td>Minggu</td>
+                            <td>17.00 WIB</td>
+                            <td>Misa Minggu Sore</td>
+                            <td>Gereja Utama</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+<!-- =============================================
+        JADWAL MISA KHUSUS
+    ============================================== -->
+    
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="mb-5">
+                <span class="text-primary fw-semibold">PERAYAAN KHUSUS</span>
+                <h2 class="fw-bold mt-2">Jadwal Misa Khusus</h2>
+                <p class="text-muted">
+                    Jadwal misa dan perayaan khusus yang diselenggarakan oleh paroki.
+                </p>
+            </div>
+
+            <div class="row g-4">
+                <!-- Misa Natal -->
+                
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <div class="schedule-icon mb-3">
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            
+                            <h4>Misa Natal</h4>
+                            <p class="text-muted">
+                                Perayaan Natal bersama umat Paroki Santo Gabriel.
+                            </p>
+                            
+                            <div class="border-top pt-3">
+                                <p class="mb-1">
+                                    <i class="bi bi-calendar3 me-2"></i>
+                                    25 Desember
+                                </p>
+                                
+                                <p class="mb-0">
+                                    <i class="bi bi-clock me-2"></i>
+                                    08.00 WIB
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Misa Paskah -->
+             
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <div class="schedule-icon mb-3">
+                                <i class="bi bi-flower1"></i>
+                            </div>
+                            
+                            <h4>Misa Paskah</h4>
+                            
+                            <p class="text-muted">
+                                Perayaan kebangkitan Kristus bersama seluruh umat.
+                            </p>
+                            
+                            <div class="border-top pt-3">
+                                <p class="mb-1">
+                                    <i class="bi bi-calendar3 me-2"></i>
+                                    Minggu Paskah
+                                </p>
+                                
+                                <p class="mb-0">
+                                    <i class="bi bi-clock me-2"></i>
+                                    07.00 WIB
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pesta Pelindung Paroki -->
+
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <div class="schedule-icon mb-3">
+                                <i class="bi bi-heart-fill"></i>
+                            </div>
+                            
+                            <h4>Pesta Pelindung Paroki</h4>
+                            
+                            <p class="text-muted">
+                                Perayaan pelindung Paroki Santo Gabriel.
+                            </p>
+                            
+                            <div class="border-top pt-3">
+                                <p class="mb-1">
+                                    <i class="bi bi-calendar3 me-2"></i>
+                                    29 September
+                                </p>
+                                
+                                <p class="mb-0">
+                                    <i class="bi bi-clock me-2"></i>
+                                    18.00 WIB
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =============================================
+        CATATAN
+    ============================================== -->
+    
+    <section class="py-5">
+        <div class="container">
+            <div class="alert alert-info d-flex align-items-start">
+                <i class="bi bi-info-circle-fill fs-4 me-3"></i>
+                
+                <div>
+                    <h5 class="alert-heading">Perhatian</h5>
+                    
+                    <p class="mb-0">
+                        Jadwal misa dapat berubah sesuai dengan kondisi dan agenda paroki. 
+                        Silakan periksa informasi terbaru sebelum mengikuti perayaan.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =============================================
+        FOOTER
+    ============================================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-5">
+                    <h5 class="fw-bold">PAROKI SANTO GABRIEL</h5>
+                        
+                    <p>Website informasi dan pelayanan umat Paroki Santo Gabriel.</p>
+                </div>
+
+                    <div class="col-lg-3">
+                        <h6 class="fw-bold">Navigasi</h6>
+                        
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#">Tentang</a>
+                            </li>
+
+                            <li>
+                                <a href="jadwal-misa.html">Jadwal Misa</a>
+                            </li>
+
+                            <li>
+                                <a href="berita.html">Berita</a>
+                            </li>
+
+                            <li>
+                                <a href="#">Pelayanan</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <h6 class="fw-bold">Kontak</h6>
+                        
+                        <p class="mb-2">
+                            <i class="bi bi-geo-alt me-2"></i>
+                            Jl. Damai No. 10, Kota Sejahtera
+                        </p>
+                        
+                        <p class="mb-2">
+                            <i class="bi bi-telephone me-2"></i>
+                            (021) 12345678
+                        </p>
+                        
+                        <p>
+                            <i class="bi bi-envelope me-2"></i>
+                            info@parokisantogabriel.org
+                        </p>
+                    </div>
+                </div>
+
+            <div class="text-center mt-5">
+                <small>
+                    © 2026 Paroki Santo Gabriel. Website Pembelajaran Pemrograman Web.
+                </small>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
